@@ -1,0 +1,381 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2E81AB0F263391DB00492528 /* FredGame.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2E81AB0D263391DB00492528 /* FredGame.xcdatamodeld */; };
+		AB03C104262C5AD000CD837F /* FredScoreService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB03C103262C5AD000CD837F /* FredScoreService.swift */; };
+		AB0927C125FFD10E008B105D /* Top10ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB0927C025FFD10E008B105D /* Top10ViewController.swift */; };
+		AB737A56262BA9BE005CAF3E /* Score.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB737A55262BA9BE005CAF3E /* Score.swift */; };
+		AB7F836825FFD59A004AC3F8 /* Top10.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB7F836725FFD59A004AC3F8 /* Top10.swift */; };
+		ABDB049625FED55A008CD5BE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABDB049525FED55A008CD5BE /* AppDelegate.swift */; };
+		ABDB049825FED55A008CD5BE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABDB049725FED55A008CD5BE /* SceneDelegate.swift */; };
+		ABDB049A25FED55A008CD5BE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABDB049925FED55A008CD5BE /* ViewController.swift */; };
+		ABDB049D25FED55A008CD5BE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABDB049B25FED55A008CD5BE /* Main.storyboard */; };
+		ABDB049F25FED55B008CD5BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABDB049E25FED55B008CD5BE /* Assets.xcassets */; };
+		ABDB04A225FED55B008CD5BE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABDB04A025FED55B008CD5BE /* LaunchScreen.storyboard */; };
+		ABDB04AC25FEDA61008CD5BE /* SequenceGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABDB04AB25FEDA61008CD5BE /* SequenceGenerator.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2E81AB0E263391DB00492528 /* FredGame.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FredGame.xcdatamodel; sourceTree = "<group>"; };
+		AB03C103262C5AD000CD837F /* FredScoreService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FredScoreService.swift; sourceTree = "<group>"; };
+		AB0927C025FFD10E008B105D /* Top10ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Top10ViewController.swift; sourceTree = "<group>"; };
+		AB737A55262BA9BE005CAF3E /* Score.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Score.swift; sourceTree = "<group>"; };
+		AB7F836725FFD59A004AC3F8 /* Top10.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Top10.swift; sourceTree = "<group>"; };
+		ABDB049225FED55A008CD5BE /* FredGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FredGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABDB049525FED55A008CD5BE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ABDB049725FED55A008CD5BE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		ABDB049925FED55A008CD5BE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		ABDB049C25FED55A008CD5BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ABDB049E25FED55B008CD5BE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ABDB04A125FED55B008CD5BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ABDB04A325FED55B008CD5BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ABDB04AB25FEDA61008CD5BE /* SequenceGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SequenceGenerator.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ABDB048F25FED55A008CD5BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ABDB048925FED55A008CD5BE = {
+			isa = PBXGroup;
+			children = (
+				ABDB049425FED55A008CD5BE /* FredGame */,
+				ABDB049325FED55A008CD5BE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ABDB049325FED55A008CD5BE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ABDB049225FED55A008CD5BE /* FredGame.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ABDB049425FED55A008CD5BE /* FredGame */ = {
+			isa = PBXGroup;
+			children = (
+				ABDB049525FED55A008CD5BE /* AppDelegate.swift */,
+				ABDB049725FED55A008CD5BE /* SceneDelegate.swift */,
+				ABDB049925FED55A008CD5BE /* ViewController.swift */,
+				AB0927C025FFD10E008B105D /* Top10ViewController.swift */,
+				ABDB049B25FED55A008CD5BE /* Main.storyboard */,
+				ABDB049E25FED55B008CD5BE /* Assets.xcassets */,
+				ABDB04A025FED55B008CD5BE /* LaunchScreen.storyboard */,
+				AB737A55262BA9BE005CAF3E /* Score.swift */,
+				AB03C103262C5AD000CD837F /* FredScoreService.swift */,
+				ABDB04A325FED55B008CD5BE /* Info.plist */,
+				ABDB04AB25FEDA61008CD5BE /* SequenceGenerator.swift */,
+				AB7F836725FFD59A004AC3F8 /* Top10.swift */,
+				2E81AB0D263391DB00492528 /* FredGame.xcdatamodeld */,
+			);
+			path = FredGame;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ABDB049125FED55A008CD5BE /* FredGame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABDB04A625FED55B008CD5BE /* Build configuration list for PBXNativeTarget "FredGame" */;
+			buildPhases = (
+				ABDB048E25FED55A008CD5BE /* Sources */,
+				ABDB048F25FED55A008CD5BE /* Frameworks */,
+				ABDB049025FED55A008CD5BE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FredGame;
+			productName = FredGame;
+			productReference = ABDB049225FED55A008CD5BE /* FredGame.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ABDB048A25FED55A008CD5BE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					ABDB049125FED55A008CD5BE = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = ABDB048D25FED55A008CD5BE /* Build configuration list for PBXProject "FredGame" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ABDB048925FED55A008CD5BE;
+			productRefGroup = ABDB049325FED55A008CD5BE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ABDB049125FED55A008CD5BE /* FredGame */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ABDB049025FED55A008CD5BE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABDB04A225FED55B008CD5BE /* LaunchScreen.storyboard in Resources */,
+				ABDB049F25FED55B008CD5BE /* Assets.xcassets in Resources */,
+				ABDB049D25FED55A008CD5BE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ABDB048E25FED55A008CD5BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB737A56262BA9BE005CAF3E /* Score.swift in Sources */,
+				ABDB049A25FED55A008CD5BE /* ViewController.swift in Sources */,
+				ABDB049625FED55A008CD5BE /* AppDelegate.swift in Sources */,
+				AB0927C125FFD10E008B105D /* Top10ViewController.swift in Sources */,
+				ABDB04AC25FEDA61008CD5BE /* SequenceGenerator.swift in Sources */,
+				AB7F836825FFD59A004AC3F8 /* Top10.swift in Sources */,
+				ABDB049825FED55A008CD5BE /* SceneDelegate.swift in Sources */,
+				2E81AB0F263391DB00492528 /* FredGame.xcdatamodeld in Sources */,
+				AB03C104262C5AD000CD837F /* FredScoreService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		ABDB049B25FED55A008CD5BE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ABDB049C25FED55A008CD5BE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ABDB04A025FED55B008CD5BE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ABDB04A125FED55B008CD5BE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ABDB04A425FED55B008CD5BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ABDB04A525FED55B008CD5BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ABDB04A725FED55B008CD5BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FredGame/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = esanchez.FredGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ABDB04A825FED55B008CD5BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FredGame/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = esanchez.FredGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ABDB048D25FED55A008CD5BE /* Build configuration list for PBXProject "FredGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABDB04A425FED55B008CD5BE /* Debug */,
+				ABDB04A525FED55B008CD5BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ABDB04A625FED55B008CD5BE /* Build configuration list for PBXNativeTarget "FredGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABDB04A725FED55B008CD5BE /* Debug */,
+				ABDB04A825FED55B008CD5BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		2E81AB0D263391DB00492528 /* FredGame.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				2E81AB0E263391DB00492528 /* FredGame.xcdatamodel */,
+			);
+			currentVersion = 2E81AB0E263391DB00492528 /* FredGame.xcdatamodel */;
+			path = FredGame.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = ABDB048A25FED55A008CD5BE /* Project object */;
+}
